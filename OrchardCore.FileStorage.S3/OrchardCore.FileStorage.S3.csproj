@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.S3" Version="3.3.111.9" />
+      <PackageReference Include="OrchardCore.Abstractions" Version="1.0.0-rc2-13391" />
+      <PackageReference Include="OrchardCore.FileStorage.Abstractions" Version="1.0.0-rc2-13391" />
+    </ItemGroup>
+
+</Project>
